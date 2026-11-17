@@ -1,5 +1,5 @@
 const button = document.getElementById('language');
-let language = 'vi';
+let language = 'en';
 function applyLanguage(nextLanguage) {
   language = nextLanguage === 'en' ? 'en' : 'vi';
   document.documentElement.lang = language;
@@ -19,4 +19,4 @@ function applyLanguage(nextLanguage) {
   button.setAttribute('aria-label', language === 'vi' ? 'Switch to English' : 'Chuyển sang tiếng Việt');
 }
 button.addEventListener('click', () => applyLanguage(language === 'vi' ? 'en' : 'vi'));
-applyLanguage('vi');
+applyLanguage('en');
