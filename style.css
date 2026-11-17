@@ -7,3 +7,6 @@ body,.hero h1,h2,.project-copy h3,.education h3,.monogram,.brand{font-family:Ari
 .gallery{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:20px}.gallery figure{margin:0;background:#e5edeb;padding:20px}.gallery img{display:block;width:100%;aspect-ratio:1.45;object-fit:contain;background:#eff3f4}.gallery figcaption{margin-top:14px;font-size:12px;line-height:1.5;color:#526c70}@media(max-width:700px){.gallery{grid-template-columns:1fr}}
 
 .gallery img,.detail-screenshot img{width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}.gallery figure{align-self:start}
+
+/* EduFlow 360 case study. */
+.project-case{margin-top:90px;padding-top:70px;border-top:1px solid var(--line);scroll-margin-top:30px}.eduflow-visual{background:#dce9e2}.project-copy .project-status{border-left:3px solid #638f80;padding-left:12px;font-size:12px;line-height:1.6;margin:20px 0 0}.project-case .experience-detail{padding-top:65px}@media(max-width:800px){.project-case{margin-top:60px;padding-top:45px}}
